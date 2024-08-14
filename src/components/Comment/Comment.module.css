@@ -1,0 +1,65 @@
+.comment {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.commentHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.commentContent {
+  margin-bottom: 10px;
+}
+
+.commentActions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.editTextarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.editButton,
+.replyButton,
+.saveButton,
+.cancelButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.deleteButton {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #ff4136;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.replies {
+  margin-left: 20px;
+  margin-top: 10px;
+}
